@@ -1,0 +1,22 @@
+{
+  "border-1": {
+    "value": "1",
+    "type": "borderWidth",
+    "description": "Border width value of 1px solid. Used in form fields, card, stroked button, visual input"
+  },
+  "border-2": {
+    "value": "2",
+    "type": "borderWidth",
+    "description": "Border width value of 2px solid. Used in active state for forms fields, visual input and keyboard focus"
+  },
+  "border-dash-1": {
+    "value": "1px dashed",
+    "type": "borderWidth",
+    "description": "Border width value of 1px dashed style. Used in file upload"
+  },
+  "border-dash-2": {
+    "value": "2px dashed",
+    "type": "borderWidth",
+    "description": "Border width value of 2px dashed style. Used in drag"
+  }
+}
