@@ -3,6 +3,7 @@
 :root{
    --primary-color: #478fed;
    --text-color: #000;
+   --success: #3cba68;
    --border-color:#6B7280;
    --card-border-color:#00000030;
    --white:#fff;
@@ -141,16 +142,22 @@ grid-gap: 40px;
     gap: 2rem;
 }
 
+.item-content .copy-success{
+    color:var(--success) !important;
+}
+
 .item-header svg{
     cursor: pointer;
     transition: .2s ease;
     height: 20px;
     width: 20px;
 }
+.item-header svg path{
+    transition: .2s ease;
+}
 
-.item-header svg:hover{
-    width: 18px;
-    height: 18px;
+.item-header svg:hover path{
+  fill:var(--primary-color)
 }
 
 .item-content > h5{

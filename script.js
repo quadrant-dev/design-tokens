@@ -4,8 +4,6 @@ async function getFile(file,section) {
   
       let x = await fetch(file);
       let y = await x.json();
-
-      let output = ""
      
     for(let block in section.content){
       let parent = document.getElementById("tokenCards");
@@ -15,8 +13,7 @@ async function getFile(file,section) {
       div.classList.add("table-info")    
       div.setAttribute("id",`card-${block.toLowerCase()}`);
       div.appendChild(title)
-      parent.appendChild(div)                  
-      let index = 0    
+      parent.appendChild(div)                       
       switch (block) {
         
         case "global": 
@@ -437,25 +434,26 @@ function copyMain(){
 
   let el = document.querySelectorAll(".item-content")
 
-  let alertDiv = document.createElement("div")
-  alertDiv.classList.add("alert-main")
-  document.body.insertBefore(alertDiv,document.body.firstChild);
+  // let alertDiv = document.createElement("div")
+  // alertDiv.classList.add("alert-main")
+  // document.body.insertBefore(alertDiv,document.body.firstChild);
 
-function alertBox(){
+// function alertBox(){
 
-alertDiv.classList.add("show-alert")
-setTimeout(()=>{
-  alertDiv.classList.remove("show-alert")
-},3000)
-}
 
 for(let j = 0; j < el.length; j++){
       let copyEl = el[j].querySelector(".copy-main")
       let valueMain = el[j].querySelector(".value-main")
+      let headerEl = el[j].querySelector(".item-header")
     copyEl.addEventListener("click",(e)=>{
       navigator.clipboard.writeText(valueMain.innerHTML);
-      alertDiv.innerHTML = `<div class="card"><h4 class="text-main">Copied Value:<span class="value-copy">${valueMain.innerHTML}</span></h4></div>`
-      alertDiv.setAttribute("onLoad",alertBox());
+      let copySuccess = document.createElement("h5")
+      copySuccess.classList.add("copy-success")
+      copySuccess.innerHTML = "copied"
+      headerEl.appendChild(copySuccess)   
+      setTimeout(()=>{
+        copySuccess.style.display = "none"
+      },4000)    
     })
     }
 }
@@ -475,11 +473,8 @@ for(let j = 0; j < el.length; j++){
           name: "global",
         },
         "light-mode":{
-          name: "light-mode",
-        },
-        "dark-mode":{
-          name:"dark-mode",
-        }
+          name: "mode-variables",
+        }       
       }
       }
     }
@@ -491,7 +486,7 @@ for(let j = 0; j < el.length; j++){
       getFile(jsonData[section].path,jsonData[section]);      
 
    for(let link in jsonData[section].content ){
-    navContent += `<a href="#card-${link}">${link}</a>`    
+    navContent += `<a href="#card-${link}">${jsonData[section].content[link].name}</a>`    
   }
    
     }
