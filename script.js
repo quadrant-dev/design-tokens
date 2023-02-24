@@ -498,15 +498,22 @@ for(let j = 0; j < el.length; j++){
   outputCards();
   
 
-function linksResponsive(){
+function searchMain(){
 
-let aside = document.getElementById("sidebar")
+let globalGroup = document.querySelectorAll("#card-global .items-group")
+let searchMain = document.querySelector("#search")
 
+searchMain.addEventListener("keyup",(e)=>{
+  globalGroup.forEach(group=>{
+    let groupTitle = group.querySelector("h4").innerHTML
+    
+       console.log(groupTitle)
 
-
+  })
+})
 }
 
-linksResponsive()
+searchMain()
 
   // Light or Dark Function & Filter
 
