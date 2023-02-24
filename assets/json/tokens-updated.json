@@ -1,0 +1,3182 @@
+{
+  "core": {
+    "colors": {
+      "origin": {
+        "black": {
+          "value": "#000000",
+          "type": "color",
+          "description": "black color"
+        },
+        "white": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "white color"
+        }
+      },
+      "blue-gray": {
+        "50": {
+          "value": "#f8fafc",
+          "type": "color",
+          "description": "colors.blue-gray.50. Blue Gray- color palette. System reserved."
+        },
+        "100": {
+          "value": "#f1f5f9",
+          "type": "color",
+          "description": "colors.blue-gray.100. Blue Gray- color palette. System reserved."
+        },
+        "200": {
+          "value": "#e2e8f0",
+          "type": "color",
+          "description": "Blue Gray-200. Blue Gray- color palette. System reserved."
+        },
+        "300": {
+          "value": "#cbd5e1",
+          "type": "color",
+          "description": "colors.blue-gray.300. Blue Gray- color palette. System reserved."
+        },
+        "400": {
+          "value": "#94a3b8",
+          "type": "color",
+          "description": "colors.blue-gray.400. Blue Gray- color palette. System reserved."
+        },
+        "500": {
+          "value": "#64748b",
+          "type": "color",
+          "description": "colors.blue-gray.500. Blue Gray- color palette. System reserved."
+        },
+        "600": {
+          "value": "#475569",
+          "type": "color",
+          "description": "colors.blue-gray.600. Blue Gray- color palette. System reserved."
+        },
+        "700": {
+          "value": "#334155",
+          "type": "color",
+          "description": "colors.blue-gray.700. Blue Gray- color palette. System reserved."
+        },
+        "800": {
+          "value": "#1e293b",
+          "type": "color",
+          "description": "colors.blue-gray.800. Blue Gray- color palette. System reserved."
+        },
+        "900": {
+          "value": "#0f172a",
+          "type": "color",
+          "description": "colors.blue-gray.900. Blue Gray- color palette. System reserved."
+        }
+      },
+      "cool-gray": {
+        "50": {
+          "value": "#f9fafb",
+          "type": "color",
+          "description": "colors.cool-gray.50. Cool Gray- color palette. System reserved."
+        },
+        "100": {
+          "value": "#f3f4f6",
+          "type": "color",
+          "description": "colors.cool-gray.100. Cool Gray- color palette. System reserved."
+        },
+        "200": {
+          "value": "#e5e7eb",
+          "type": "color",
+          "description": "colors.cool-gray.200. Cool Gray- color palette. System reserved."
+        },
+        "300": {
+          "value": "#d1d5db",
+          "type": "color",
+          "description": "colors.cool-gray.300. Cool Gray- color palette. System reserved."
+        },
+        "400": {
+          "value": "#9ca3af",
+          "type": "color",
+          "description": "colors.cool-gray.400. Cool Gray- color palette. System reserved."
+        },
+        "500": {
+          "value": "#6b7280",
+          "type": "color",
+          "description": "colors.cool-gray.500. Cool Gray- color palette. System reserved."
+        },
+        "600": {
+          "value": "#4b5563",
+          "type": "color",
+          "description": "colors.cool-gray.600. Cool Gray- color palette. System reserved."
+        },
+        "700": {
+          "value": "#374151",
+          "type": "color",
+          "description": "colors.cool-gray.700. Cool Gray- color palette. System reserved."
+        },
+        "800": {
+          "value": "#1f2937",
+          "type": "color",
+          "description": "colors.cool-gray.800. Cool Gray- color palette. System reserved."
+        },
+        "900": {
+          "value": "#111827",
+          "type": "color",
+          "description": "colors.cool-gray.900. Cool Gray- color palette. System reserved."
+        }
+      },
+      "gray": {
+        "50": {
+          "value": "#fafafa",
+          "type": "color",
+          "description": "colors.gray.50. Gray color palette. System reserved."
+        },
+        "100": {
+          "value": "#f4f4f5",
+          "type": "color",
+          "description": "colors.gray.100. Gray color palette. System reserved."
+        },
+        "200": {
+          "value": "#e4e4e7",
+          "type": "color",
+          "description": "Gray-200. Gray color palette. System reserved."
+        },
+        "300": {
+          "value": "#d4d4d8",
+          "type": "color",
+          "description": "colors.gray.300. Gray color palette. System reserved."
+        },
+        "400": {
+          "value": "#a1a1aa",
+          "type": "color",
+          "description": "Gray.400. Gray color palette. System reserved."
+        },
+        "500": {
+          "value": "#71717a",
+          "type": "color",
+          "description": "Gray.500. Gray color palette. System reserved."
+        },
+        "600": {
+          "value": "#52525b",
+          "type": "color",
+          "description": "colors.gray.600. Gray color palette. System reserved."
+        },
+        "700": {
+          "value": "#3f3f46",
+          "type": "color",
+          "description": "colors.gray.700. Gray color palette. System reserved."
+        },
+        "800": {
+          "value": "#27272a",
+          "type": "color",
+          "description": "colors.gray.800. Gray color palette. System reserved."
+        },
+        "900": {
+          "value": "#18181b",
+          "type": "color",
+          "description": "colors.gray.900. Gray color palette. System reserved."
+        }
+      },
+      "true-gray": {
+        "50": {
+          "value": "#fafafa",
+          "type": "color",
+          "description": "colors.true-gray.50. True gray color palette. System reserved."
+        },
+        "100": {
+          "value": "#f5f5f5",
+          "type": "color",
+          "description": "colors.true-gray.100. True gray color palette. System reserved."
+        },
+        "200": {
+          "value": "#e5e5e5",
+          "type": "color",
+          "description": "True-gray.200. True gray color palette. System reserved."
+        },
+        "300": {
+          "value": "#d4d4d4",
+          "type": "color",
+          "description": "colors.true-gray.300. True gray color palette. System reserved."
+        },
+        "400": {
+          "value": "#a3a3a3",
+          "type": "color",
+          "description": "colors.true-gray.400. True gray color palette. System reserved."
+        },
+        "500": {
+          "value": "#737373",
+          "type": "color",
+          "description": "colors.true-gray.500. True gray color palette. System reserved."
+        },
+        "600": {
+          "value": "#525252",
+          "type": "color",
+          "description": "colors.true-gray.600. True gray color palette. System reserved."
+        },
+        "700": {
+          "value": "#404040",
+          "type": "color",
+          "description": "colors.true-gray.700. True gray color palette. System reserved."
+        },
+        "800": {
+          "value": "#262626",
+          "type": "color",
+          "description": "colors.true-gray.800. True gray color palette. System reserved."
+        },
+        "900": {
+          "value": "#171717",
+          "type": "color",
+          "description": "colors.true-gray.900. True gray color palette. System reserved."
+        }
+      },
+      "warm-gray": {
+        "50": {
+          "value": "#fafaf9",
+          "type": "color",
+          "description": "colors.warm-gray.50. Warm gray color palette. System reserved."
+        },
+        "100": {
+          "value": "#f5f5f4",
+          "type": "color",
+          "description": "colors.warm-gray.100. Warm gray color palette. System reserved."
+        },
+        "200": {
+          "value": "#e7e5e4",
+          "type": "color",
+          "description": "colors.warm-gray.200. Warm gray color palette. System reserved."
+        },
+        "300": {
+          "value": "#d6d3d1",
+          "type": "color",
+          "description": "colors.warm-gray.300. Warm gray color palette. System reserved."
+        },
+        "400": {
+          "value": "#a8a29e",
+          "type": "color",
+          "description": "colors.warm-gray.400. Warm gray color palette. System reserved."
+        },
+        "500": {
+          "value": "#78716c",
+          "type": "color",
+          "description": "colors.warm-gray.500. Warm gray color palette. System reserved."
+        },
+        "600": {
+          "value": "#57534e",
+          "type": "color",
+          "description": "colors.warm-gray.600. Warm gray color palette. System reserved."
+        },
+        "700": {
+          "value": "#44403c",
+          "type": "color",
+          "description": "colors.warm-gray.700. Warm gray color palette. System reserved."
+        },
+        "800": {
+          "value": "#292524",
+          "type": "color",
+          "description": "colors.warm-gray.800. Warm gray color palette. System reserved."
+        },
+        "900": {
+          "value": "#1c1917",
+          "type": "color",
+          "description": "colors.warm-gray.900. Warm gray color palette. System reserved."
+        }
+      },
+      "red": {
+        "50": {
+          "value": "#fff4f3",
+          "type": "color",
+          "description": "colors.red.50. Red color palette. System reserved."
+        },
+        "100": {
+          "value": "#fedbd7",
+          "type": "color",
+          "description": "colors.red.100. Red color palette. System reserved."
+        },
+        "200": {
+          "value": "#fdc5bf",
+          "type": "color",
+          "description": "colors.red.200. Red color palette. System reserved."
+        },
+        "300": {
+          "value": "#fc9a8f",
+          "type": "color",
+          "description": "colors.red.300. Red color palette. System reserved."
+        },
+        "400": {
+          "value": "#fb6c5d",
+          "type": "color",
+          "description": "colors.red.400. Red color palette. System reserved."
+        },
+        "500": {
+          "value": "#f92d18",
+          "type": "color",
+          "description": "colors.red.500. Red color palette. System reserved."
+        },
+        "600": {
+          "value": "#da1500",
+          "type": "color",
+          "description": "colors.red.600. Red color palette. System reserved."
+        },
+        "700": {
+          "value": "#b71605",
+          "type": "color",
+          "description": "colors.red.700. Red color palette. System reserved."
+        },
+        "800": {
+          "value": "#941204",
+          "type": "color",
+          "description": "colors.red.800. Red color palette. System reserved."
+        },
+        "900": {
+          "value": "#720e03",
+          "type": "color",
+          "description": "colors.red.900. Red color palette. System reserved."
+        }
+      },
+      "orange": {
+        "50": {
+          "value": "#fff7ed",
+          "type": "color",
+          "description": "colors.orange.50. Orange color palette. System reserved."
+        },
+        "100": {
+          "value": "#ffedd5",
+          "type": "color",
+          "description": "colors.orange.100. Orange color palette. System reserved."
+        },
+        "200": {
+          "value": "#fed7aa",
+          "type": "color",
+          "description": "colors.orange.200. Orange color palette. System reserved."
+        },
+        "300": {
+          "value": "#fdba74",
+          "type": "color",
+          "description": "colors.orange.300. Orange color palette. System reserved."
+        },
+        "400": {
+          "value": "#fb923c",
+          "type": "color",
+          "description": "colors.orange.400. Orange color palette. System reserved."
+        },
+        "500": {
+          "value": "#f97316",
+          "type": "color",
+          "description": "colors.orange.500. Orange color palette. System reserved."
+        },
+        "600": {
+          "value": "#ea580c",
+          "type": "color",
+          "description": "colors.orange.600. Orange color palette. System reserved."
+        },
+        "700": {
+          "value": "#c2410c",
+          "type": "color",
+          "description": "colors.orange.700. Orange color palette. System reserved."
+        },
+        "800": {
+          "value": "#9a3412",
+          "type": "color",
+          "description": "colors.orange.800. Orange color palette. System reserved."
+        },
+        "900": {
+          "value": "#7c2d12",
+          "type": "color",
+          "description": "colors.orange.900. Orange color palette. System reserved."
+        }
+      },
+      "amber": {
+        "50": {
+          "value": "#fffbeb",
+          "type": "color",
+          "description": "colors.amber.50. Amber color palette. System reserved."
+        },
+        "100": {
+          "value": "#fef3c7",
+          "type": "color",
+          "description": "colors.amber.100. Amber color palette. System reserved."
+        },
+        "200": {
+          "value": "#fde68a",
+          "type": "color",
+          "description": "colors.amber.200. Amber color palette. System reserved."
+        },
+        "300": {
+          "value": "#fcd34d",
+          "type": "color",
+          "description": "colors.amber.300. Amber color palette. System reserved."
+        },
+        "400": {
+          "value": "#fbbf24",
+          "type": "color",
+          "description": "colors.amber.400. Amber color palette. System reserved."
+        },
+        "500": {
+          "value": "#f59e0b",
+          "type": "color",
+          "description": "colors.amber.500. Amber color palette. System reserved."
+        },
+        "600": {
+          "value": "#d97706",
+          "type": "color",
+          "description": "colors.amber.600. Amber color palette. System reserved."
+        },
+        "700": {
+          "value": "#b45309",
+          "type": "color",
+          "description": "colors.amber.700. Amber color palette. System reserved."
+        },
+        "800": {
+          "value": "#92400e",
+          "type": "color",
+          "description": "colors.amber.800. Amber color palette. System reserved."
+        },
+        "900": {
+          "value": "#78350f",
+          "type": "color",
+          "description": "colors.amber.900. Amber color palette. System reserved."
+        }
+      },
+      "yellow": {
+        "50": {
+          "value": "#fefce8",
+          "type": "color",
+          "description": "colors.yellow.. Yellow color palette. System reserved."
+        },
+        "100": {
+          "value": "#fef9c3",
+          "type": "color",
+          "description": "colors.yellow.100. Yellow color palette. System reserved."
+        },
+        "200": {
+          "value": "#fef08a",
+          "type": "color",
+          "description": "colors.yellow.200. Yellow color palette. System reserved."
+        },
+        "300": {
+          "value": "#fde047",
+          "type": "color",
+          "description": "colors.yellow.300. Yellow color palette. System reserved."
+        },
+        "400": {
+          "value": "#facc15",
+          "type": "color",
+          "description": "colors.yellow.400. Yellow color palette. System reserved."
+        },
+        "500": {
+          "value": "#eab308",
+          "type": "color",
+          "description": "colors.yellow.500. Yellow color palette. System reserved."
+        },
+        "600": {
+          "value": "#bf8808",
+          "type": "color",
+          "description": "colors.yellow.600. Yellow color palette. System reserved."
+        },
+        "700": {
+          "value": "#a16207",
+          "type": "color",
+          "description": "colors.yellow.700. Yellow color palette. System reserved."
+        },
+        "800": {
+          "value": "#854d0e",
+          "type": "color",
+          "description": "colors.yellow.800. Yellow color palette. System reserved."
+        },
+        "900": {
+          "value": "#713f12",
+          "type": "color",
+          "description": "colors.yellow.900. Yellow color palette. System reserved."
+        }
+      },
+      "lime": {
+        "50": {
+          "value": "#f7fee7",
+          "type": "color",
+          "description": "colors.lime.50. Green color palette. System reserved."
+        },
+        "100": {
+          "value": "#ecfccb",
+          "type": "color",
+          "description": "colors.lime.100. Green color palette. System reserved."
+        },
+        "200": {
+          "value": "#d9f99d",
+          "type": "color",
+          "description": "colors.lime.200. Green color palette. System reserved."
+        },
+        "300": {
+          "value": "#bef264",
+          "type": "color",
+          "description": "colors.lime.300. Green color palette. System reserved."
+        },
+        "400": {
+          "value": "#a3e635",
+          "type": "color",
+          "description": "colors.lime.400. Green color palette. System reserved."
+        },
+        "500": {
+          "value": "#84cc16",
+          "type": "color",
+          "description": "colors.lime.500. Green color palette. System reserved."
+        },
+        "600": {
+          "value": "#65a30d",
+          "type": "color",
+          "description": "colors.lime.600. Green color palette. System reserved."
+        },
+        "700": {
+          "value": "#4d7c0f",
+          "type": "color",
+          "description": "colors.lime.700. Green color palette. System reserved."
+        },
+        "800": {
+          "value": "#3f6212",
+          "type": "color",
+          "description": "colors.lime.800. Green color palette. System reserved."
+        },
+        "900": {
+          "value": "#365314",
+          "type": "color",
+          "description": "colors.lime.900. Green color palette. System reserved."
+        }
+      },
+      "green": {
+        "50": {
+          "value": "#e3f9e3",
+          "type": "color",
+          "description": "colors.green.50. Green color palette. System reserved."
+        },
+        "100": {
+          "value": "#cef4ce",
+          "type": "color",
+          "description": "colors.green.100. Green color palette. System reserved."
+        },
+        "200": {
+          "value": "#b9efb9",
+          "type": "color",
+          "description": "colors.green.200. Green color palette. System reserved."
+        },
+        "300": {
+          "value": "#9be79a",
+          "type": "color",
+          "description": "colors.green.300. Green color palette. System reserved."
+        },
+        "400": {
+          "value": "#68db67",
+          "type": "color",
+          "description": "colors.green.400. Green color palette. System reserved."
+        },
+        "500": {
+          "value": "#04c302",
+          "type": "color",
+          "description": "colors.green.500. Green color palette. System reserved."
+        },
+        "600": {
+          "value": "#04a003",
+          "type": "color",
+          "description": "colors.green.600. Green color palette. System reserved."
+        },
+        "700": {
+          "value": "#078307",
+          "type": "color",
+          "description": "colors.green.700. Green color palette. System reserved."
+        },
+        "800": {
+          "value": "#026002",
+          "type": "color",
+          "description": "colors.green.800. Green color palette. System reserved."
+        },
+        "900": {
+          "value": "#204c20",
+          "type": "color",
+          "description": "colors.green.900. Green color palette. System reserved."
+        }
+      },
+      "emerald": {
+        "50": {
+          "value": "#ecfdf5",
+          "type": "color",
+          "description": "colors.emerald.50. Emerald color palette. System reserved."
+        },
+        "100": {
+          "value": "#d1fae5",
+          "type": "color",
+          "description": "colors.emerald.100. Emerald color palette. System reserved."
+        },
+        "200": {
+          "value": "#a7f3d0",
+          "type": "color",
+          "description": "colors.emerald.200. Emerald color palette. System reserved."
+        },
+        "300": {
+          "value": "#6ee7b7",
+          "type": "color",
+          "description": "colors.emerald.300. Emerald color palette. System reserved."
+        },
+        "400": {
+          "value": "#34d399",
+          "type": "color",
+          "description": "colors.emerald.400. Emerald color palette. System reserved."
+        },
+        "500": {
+          "value": "#10b981",
+          "type": "color",
+          "description": "colors.emerald.500. Emerald color palette. System reserved."
+        },
+        "600": {
+          "value": "#059669",
+          "type": "color",
+          "description": "colors.emerald.600. Emerald color palette. System reserved."
+        },
+        "700": {
+          "value": "#047857",
+          "type": "color",
+          "description": "colors.emerald.700. Emerald color palette. System reserved."
+        },
+        "800": {
+          "value": "#065f46",
+          "type": "color",
+          "description": "colors.emerald.800. Emerald color palette. System reserved."
+        },
+        "900": {
+          "value": "#064e3b",
+          "type": "color",
+          "description": "colors.emerald.900. Emerald color palette. System reserved."
+        }
+      },
+      "teal": {
+        "50": {
+          "value": "#f0fdfa",
+          "type": "color",
+          "description": "colors.teal.50. Teal color palette. System reserved."
+        },
+        "100": {
+          "value": "#ccfbf1",
+          "type": "color",
+          "description": "colors.teal.100. Teal color palette. System reserved."
+        },
+        "200": {
+          "value": "#99f6e4",
+          "type": "color",
+          "description": "colors.teal.200. Teal color palette. System reserved."
+        },
+        "300": {
+          "value": "#5eead4",
+          "type": "color",
+          "description": "colors.teal.300. Teal color palette. System reserved."
+        },
+        "400": {
+          "value": "#2dd4bf",
+          "type": "color",
+          "description": "colors.teal.400. Teal color palette. System reserved."
+        },
+        "500": {
+          "value": "#14b8a6",
+          "type": "color",
+          "description": "colors.teal.500. Teal color palette. System reserved."
+        },
+        "600": {
+          "value": "#0d9488",
+          "type": "color",
+          "description": "colors.teal.600. Teal color palette. System reserved."
+        },
+        "700": {
+          "value": "#0f766e",
+          "type": "color",
+          "description": "colors.teal.700. Teal color palette. System reserved."
+        },
+        "800": {
+          "value": "#115e59",
+          "type": "color",
+          "description": "colors.teal.800. Teal color palette. System reserved."
+        },
+        "900": {
+          "value": "#134e4a",
+          "type": "color",
+          "description": "colors.teal.900. Teal color palette. System reserved."
+        }
+      },
+      "cyan": {
+        "50": {
+          "value": "#ecfeff",
+          "type": "color",
+          "description": "colors.cyan.50. Cyan color palette. System reserved."
+        },
+        "100": {
+          "value": "#cffafe",
+          "type": "color",
+          "description": "colors.cyan.100. Cyan color palette. System reserved."
+        },
+        "200": {
+          "value": "#a5f3fc",
+          "type": "color",
+          "description": "colors.cyan.200. Cyan color palette. System reserved."
+        },
+        "300": {
+          "value": "#67e8f9",
+          "type": "color",
+          "description": "colors.cyan.300. Cyan color palette. System reserved."
+        },
+        "400": {
+          "value": "#22d3ee",
+          "type": "color",
+          "description": "colors.cyan.400. Cyan color palette. System reserved."
+        },
+        "500": {
+          "value": "#06b6d4",
+          "type": "color",
+          "description": "colors.cyan.500. Cyan color palette. System reserved."
+        },
+        "600": {
+          "value": "#0891b2",
+          "type": "color",
+          "description": "colors.cyan.600. Cyan color palette. System reserved."
+        },
+        "700": {
+          "value": "#0e7490",
+          "type": "color",
+          "description": "colors.cyan.700. Cyan color palette. System reserved."
+        },
+        "800": {
+          "value": "#155e75",
+          "type": "color",
+          "description": "colors.cyan.800. Cyan color palette. System reserved."
+        },
+        "900": {
+          "value": "#164e63",
+          "type": "color",
+          "description": "colors.cyan.900. Cyan color palette. System reserved."
+        }
+      },
+      "light-blue": {
+        "50": {
+          "value": "#f0f9ff",
+          "type": "color",
+          "description": "colors.light-blue.50. Lightblue color palette. System reserved."
+        },
+        "100": {
+          "value": "#e0f2fe",
+          "type": "color",
+          "description": "colors.light-blue.100. Lightblue color palette. System reserved."
+        },
+        "200": {
+          "value": "#bae6fd",
+          "type": "color",
+          "description": "colors.light-blue.200. Lightblue color palette. System reserved."
+        },
+        "300": {
+          "value": "#7dd3fc",
+          "type": "color",
+          "description": "colors.light-blue.300. Lightblue color palette. System reserved."
+        },
+        "400": {
+          "value": "#38bdf8",
+          "type": "color",
+          "description": "colors.light-blue.400. Lightblue color palette. System reserved."
+        },
+        "500": {
+          "value": "#0ea5e9",
+          "type": "color",
+          "description": "colors.light-blue.500. Lightblue color palette. System reserved."
+        },
+        "600": {
+          "value": "#0284c7",
+          "type": "color",
+          "description": "colors.light-blue.600. Lightblue color palette. System reserved."
+        },
+        "700": {
+          "value": "#0369a1",
+          "type": "color",
+          "description": "colors.light-blue.700. Lightblue color palette. System reserved."
+        },
+        "800": {
+          "value": "#075985",
+          "type": "color",
+          "description": "colors.light-blue.800. Lightblue color palette. System reserved."
+        },
+        "900": {
+          "value": "#0c4a6e",
+          "type": "color",
+          "description": "colors.light-blue.900. Lightblue color palette. System reserved."
+        }
+      },
+      "blue": {
+        "50": {
+          "value": "#f1f8fe",
+          "type": "color",
+          "description": "colors.blue.50. Blue color palette. System reserved."
+        },
+        "100": {
+          "value": "#e2eefa",
+          "type": "color",
+          "description": "colors.blue.100. Blue color palette. System reserved."
+        },
+        "200": {
+          "value": "#b7d5f3",
+          "type": "color",
+          "description": "colors.blue.200. Blue color palette. System reserved."
+        },
+        "300": {
+          "value": "#87b9ec",
+          "type": "color",
+          "description": "colors.blue.300. Blue color palette. System reserved."
+        },
+        "400": {
+          "value": "#569de4",
+          "type": "color",
+          "description": "colors.blue.400. Blue color palette. System reserved."
+        },
+        "500": {
+          "value": "#3288de",
+          "type": "color",
+          "description": "colors.blue.500. Blue color palette. System reserved."
+        },
+        "600": {
+          "value": "#0e73d8",
+          "type": "color",
+          "description": "colors.blue.600. Blue color palette. System reserved."
+        },
+        "700": {
+          "value": "#0a60ce",
+          "type": "color",
+          "description": "colors.blue.700. Blue color palette. System reserved."
+        },
+        "800": {
+          "value": "#043cac",
+          "type": "color",
+          "description": "colors.blue.800. Blue color palette. System reserved."
+        },
+        "900": {
+          "value": "#03318b",
+          "type": "color",
+          "description": "colors.blue.900. Blue color palette. System reserved."
+        }
+      },
+      "indigo": {
+        "50": {
+          "value": "#eef2ff",
+          "type": "color",
+          "description": "colors.indigo50. Indigo color palette. System reserved."
+        },
+        "100": {
+          "value": "#e0e7ff",
+          "type": "color",
+          "description": "colors.indigo.100. Indigo color palette. System reserved."
+        },
+        "200": {
+          "value": "#c7d2fe",
+          "type": "color",
+          "description": "colors.indigo.200. Indigo color palette. System reserved."
+        },
+        "300": {
+          "value": "#a5b4fc",
+          "type": "color",
+          "description": "colors.indigo.300. Indigo color palette. System reserved."
+        },
+        "400": {
+          "value": "#818cf8",
+          "type": "color",
+          "description": "colors.indigo.400. Indigo color palette. System reserved."
+        },
+        "500": {
+          "value": "#6366f1",
+          "type": "color",
+          "description": "colors.indigo.500. Indigo color palette. System reserved."
+        },
+        "600": {
+          "value": "#4f46e5",
+          "type": "color",
+          "description": "colors.indigo.600. Indigo color palette. System reserved."
+        },
+        "700": {
+          "value": "#4338ca",
+          "type": "color",
+          "description": "colors.indigo.700. Indigo color palette. System reserved."
+        },
+        "800": {
+          "value": "#3730a3",
+          "type": "color",
+          "description": "colors.indigo.800. Indigo color palette. System reserved."
+        },
+        "900": {
+          "value": "#312e81",
+          "type": "color",
+          "description": "colors.indigo.900. Indigo color palette. System reserved."
+        }
+      },
+      "violet": {
+        "50": {
+          "value": "#f5f3ff",
+          "type": "color",
+          "description": "colors.violet.50. Violet color palette. System reserved."
+        },
+        "100": {
+          "value": "#ede9fe",
+          "type": "color",
+          "description": "colors.violet.100. Violet color palette. System reserved."
+        },
+        "200": {
+          "value": "#ddd6fe",
+          "type": "color",
+          "description": "colors.violet.200. Violet color palette. System reserved."
+        },
+        "300": {
+          "value": "#c4b5fd",
+          "type": "color",
+          "description": "colors.violet.300. Violet color palette. System reserved."
+        },
+        "400": {
+          "value": "#a78bfa",
+          "type": "color",
+          "description": "colors.violet.400. Violet color palette. System reserved."
+        },
+        "500": {
+          "value": "#8b5cf6",
+          "type": "color",
+          "description": "colors.violet.500. Violet color palette. System reserved."
+        },
+        "600": {
+          "value": "#7c3aed",
+          "type": "color",
+          "description": "colors.violet.600. Violet color palette. System reserved."
+        },
+        "700": {
+          "value": "#6d28d9",
+          "type": "color",
+          "description": "colors.violet.700. Violet color palette. System reserved."
+        },
+        "800": {
+          "value": "#5b21b6",
+          "type": "color",
+          "description": "colors.violet.800. Violet color palette. System reserved."
+        },
+        "900": {
+          "value": "#4c1d95",
+          "type": "color",
+          "description": "colors.violet.900. Violet color palette. System reserved."
+        }
+      },
+      "purple": {
+        "50": {
+          "value": "#faf5ff",
+          "type": "color",
+          "description": "colors.purple.50. Purple color palette. System reserved."
+        },
+        "100": {
+          "value": "#f3e8ff",
+          "type": "color",
+          "description": "colors.purple.100. Purple color palette. System reserved."
+        },
+        "200": {
+          "value": "#e9d5ff",
+          "type": "color",
+          "description": "colors.purple.200. Purple color palette. System reserved."
+        },
+        "300": {
+          "value": "#d8b4fe",
+          "type": "color",
+          "description": "colors.purple.300. Purple color palette. System reserved."
+        },
+        "400": {
+          "value": "#c084fc",
+          "type": "color",
+          "description": "colors.purple.400. Purple color palette. System reserved."
+        },
+        "500": {
+          "value": "#a855f7",
+          "type": "color",
+          "description": "colors.purple.500. Purple color palette. System reserved."
+        },
+        "600": {
+          "value": "#9333ea",
+          "type": "color",
+          "description": "colors.purple.600. Purple color palette. System reserved."
+        },
+        "700": {
+          "value": "#7e22ce",
+          "type": "color",
+          "description": "colors.purple.700. Purple color palette. System reserved."
+        },
+        "800": {
+          "value": "#6b21a8",
+          "type": "color",
+          "description": "colors.purple.800. Purple color palette. System reserved."
+        },
+        "900": {
+          "value": "#581c87",
+          "type": "color",
+          "description": "colors.purple.900. Purple color palette. System reserved."
+        }
+      },
+      "fuchsia": {
+        "50": {
+          "value": "#fdf4ff",
+          "type": "color",
+          "description": "colors.fuchsia.50. Fuchsia color palette. System reserved."
+        },
+        "100": {
+          "value": "#fae8ff",
+          "type": "color",
+          "description": "colors.fuchsia.100. Fuchsia color palette. System reserved."
+        },
+        "200": {
+          "value": "#f5d0fe",
+          "type": "color",
+          "description": "colors.fuchsia.200. Fuchsia color palette. System reserved."
+        },
+        "300": {
+          "value": "#f0abfc",
+          "type": "color",
+          "description": "colors.fuchsia.300. Fuchsia color palette. System reserved."
+        },
+        "400": {
+          "value": "#e879f9",
+          "type": "color",
+          "description": "colors.fuchsia.400. Fuchsia color palette. System reserved."
+        },
+        "500": {
+          "value": "#d946ef",
+          "type": "color",
+          "description": "colors.fuchsia.500. Fuchsia color palette. System reserved."
+        },
+        "600": {
+          "value": "#c026d3",
+          "type": "color",
+          "description": "colors.fuchsia.600. Fuchsia color palette. System reserved."
+        },
+        "700": {
+          "value": "#a21caf",
+          "type": "color",
+          "description": "colors.fuchsia.700. Fuchsia color palette. System reserved."
+        },
+        "800": {
+          "value": "#86198f",
+          "type": "color",
+          "description": "colors.fuchsia.800. Fuchsia color palette. System reserved."
+        },
+        "900": {
+          "value": "#701a75",
+          "type": "color",
+          "description": "colors.fuchsia.900. Fuchsia color palette. System reserved."
+        }
+      },
+      "pink": {
+        "50": {
+          "value": "#fdf2f8",
+          "type": "color",
+          "description": "colors.pink.50. Pink color palette. System reserved."
+        },
+        "100": {
+          "value": "#fce7f3",
+          "type": "color",
+          "description": "colors.pink.100. Pink color palette. System reserved."
+        },
+        "200": {
+          "value": "#fbcfe8",
+          "type": "color",
+          "description": "colors.pink.200. Pink color palette. System reserved."
+        },
+        "300": {
+          "value": "#f9a8d4",
+          "type": "color",
+          "description": "colors.pink.300. Pink color palette. System reserved."
+        },
+        "400": {
+          "value": "#f472b6",
+          "type": "color",
+          "description": "colors.pink.400. Pink color palette. System reserved."
+        },
+        "500": {
+          "value": "#ec4899",
+          "type": "color",
+          "description": "colors.pink.500. Pink color palette. System reserved."
+        },
+        "600": {
+          "value": "#db2777",
+          "type": "color",
+          "description": "colors.pink.600. Pink color palette. System reserved."
+        },
+        "700": {
+          "value": "#be185d",
+          "type": "color",
+          "description": "colors.pink.700. Pink color palette. System reserved."
+        },
+        "800": {
+          "value": "#9d174d",
+          "type": "color",
+          "description": "colors.pink.800. Pink color palette. System reserved."
+        },
+        "900": {
+          "value": "#831843",
+          "type": "color",
+          "description": "colors.pink.900. Pink color palette. System reserved."
+        }
+      },
+      "rose": {
+        "50": {
+          "value": "#fff1f2",
+          "type": "color",
+          "description": "colors.rose.50. Rose color palette. System reserved."
+        },
+        "100": {
+          "value": "#ffe4e6",
+          "type": "color",
+          "description": "colors.rose.100. Rose color palette. System reserved."
+        },
+        "200": {
+          "value": "#fecdd3",
+          "type": "color",
+          "description": "colors.rose.200. Rose color palette. System reserved."
+        },
+        "300": {
+          "value": "#fda4af",
+          "type": "color",
+          "description": "colors.rose.300. Rose color palette. System reserved."
+        },
+        "400": {
+          "value": "#fb7185",
+          "type": "color",
+          "description": "colors.rose.400. Rose color palette. System reserved."
+        },
+        "500": {
+          "value": "#f43f5e",
+          "type": "color",
+          "description": "colors.rose.500. Rose color palette. System reserved."
+        },
+        "600": {
+          "value": "#e11d48",
+          "type": "color",
+          "description": "colors.rose.600. Rose color palette. System reserved."
+        },
+        "700": {
+          "value": "#be123c",
+          "type": "color",
+          "description": "colors.rose.700. Rose color palette. System reserved."
+        },
+        "800": {
+          "value": "#9f1239",
+          "type": "color",
+          "description": "colors.rose.800. Rose color palette. System reserved."
+        },
+        "900": {
+          "value": "#881337",
+          "type": "color",
+          "description": "colors.rose.900. Rose color palette. System reserved."
+        }
+      }
+    },
+    "opacity": {
+      "opacity-base": {
+        "value": "4%",
+        "type": "opacity",
+        "description": "base opacity token"
+      },
+      "opacity-4": {
+        "value": "{opacity.opacity-base}*1",
+        "type": "opacity",
+        "description": "base opacity token"
+      },
+      "opacity-8": {
+        "value": "{opacity.opacity-base}*2",
+        "type": "opacity",
+        "description": "opacity token 8%"
+      },
+      "opacity-10": {
+        "value": "{opacity.opacity-base}*2.5",
+        "type": "opacity",
+        "description": "opacity token 10%"
+      },
+      "opacity-32": {
+        "value": "{opacity.opacity-base}*8",
+        "type": "opacity",
+        "description": "opacity token 32%. Used for page overlay"
+      },
+      "dark-secondary-text": {
+        "value": "{opacity.opacity-base}*17.5",
+        "type": "opacity",
+        "description": "opacity token 32%. Used for page overlay"
+      },
+      "opacity-full": {
+        "value": "{opacity.opacity-base}*25",
+        "type": "opacity",
+        "description": "opacity token for 100% opacity"
+      },
+      "dark-disabled-text": {
+        "value": "{opacity.opacity-base}*15",
+        "type": "opacity",
+        "description": "opacity token 60% used for dark mode secondary text"
+      }
+    }
+  },
+  "global": {
+    "fontFamilies": {
+      "open-sans": {
+        "value": "Open Sans",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeights": {
+      "0": {
+        "value": "39",
+        "type": "lineHeights"
+      },
+      "1": {
+        "value": "35",
+        "type": "lineHeights"
+      },
+      "2": {
+        "value": "32",
+        "type": "lineHeights"
+      },
+      "3": {
+        "value": "23",
+        "type": "lineHeights"
+      },
+      "4": {
+        "value": "19",
+        "type": "lineHeights"
+      },
+      "5": {
+        "value": "20",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeights": {
+      "open-sans-0": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "open-sans-1": {
+        "value": "SemiBold",
+        "type": "fontWeights"
+      },
+      "open-sans-2": {
+        "value": "Bold",
+        "type": "fontWeights"
+      }
+    },
+    "fontSize": {
+      "0": {
+        "value": "12",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "20",
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": "25",
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": "31",
+        "type": "fontSizes"
+      }
+    },
+    "letterSpacing": {
+      "0": {
+        "value": "0%",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    },
+    "heading": {
+      "fontFamily": {
+        "value": "{fontFamilies.open-sans}",
+        "type": "fontFamilies"
+      },
+      "fontWeight": {
+        "value": "{fontWeights.open-sans-0}",
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "{lineHeights.0}",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": "{fontSize.4}",
+        "type": "fontSizes"
+      },
+      "letterSpacing": {
+        "value": "{letterSpacing.0}",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": "{paragraphSpacing.0}",
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "{textCase.none}",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "{textDecoration.none}",
+        "type": "textDecoration"
+      }
+    },
+    "title": {
+      "fontFamily": {
+        "value": "{fontFamilies.open-sans}",
+        "type": "fontFamilies"
+      },
+      "fontWeight": {
+        "value": "{fontWeights.open-sans-0}",
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "{lineHeights.1}",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": "{fontSize.3}",
+        "type": "fontSizes"
+      },
+      "letterSpacing": {
+        "value": "{letterSpacing.0}",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": "{paragraphSpacing.0}",
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "{textCase.none}",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "{textDecoration.none}",
+        "type": "textDecoration"
+      }
+    },
+    "subhead-semibold": {
+      "fontFamily": {
+        "value": "{fontFamilies.open-sans}",
+        "type": "fontFamilies"
+      },
+      "fontWeight": {
+        "value": "{fontWeights.open-sans-1}",
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "{lineHeights.2}",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": "{fontSize.2}",
+        "type": "fontSizes"
+      },
+      "letterSpacing": {
+        "value": "{letterSpacing.0}",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": "{paragraphSpacing.0}",
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "{textCase.none}",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "{textDecoration.none}",
+        "type": "textDecoration"
+      }
+    },
+    "subhead": {
+      "fontFamily": {
+        "value": "{fontFamilies.open-sans}",
+        "type": "fontFamilies"
+      },
+      "fontWeight": {
+        "value": "{fontWeights.open-sans-0}",
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "{lineHeights.2}",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": "{fontSize.2}",
+        "type": "fontSizes"
+      },
+      "letterSpacing": {
+        "value": "{letterSpacing.0}",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": "{paragraphSpacing.0}",
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "{textCase.none}",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "{textDecoration.none}",
+        "type": "textDecoration"
+      }
+    },
+    "body-bold": {
+      "fontFamily": {
+        "value": "{fontFamilies.open-sans}",
+        "type": "fontFamilies"
+      },
+      "fontWeight": {
+        "value": "{fontWeights.open-sans-2}",
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "{lineHeights.3}",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": "{fontSize.1}",
+        "type": "fontSizes"
+      },
+      "letterSpacing": {
+        "value": "{letterSpacing.0}",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": "{paragraphSpacing.0}",
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "{textCase.none}",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "{textDecoration.none}",
+        "type": "textDecoration"
+      }
+    },
+    "body-semibold": {
+      "fontFamily": {
+        "value": "{fontFamilies.open-sans}",
+        "type": "fontFamilies"
+      },
+      "fontWeight": {
+        "value": "{fontWeights.open-sans-1}",
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "{lineHeights.3}",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": "{fontSize.1}",
+        "type": "fontSizes"
+      },
+      "letterSpacing": {
+        "value": "{letterSpacing.0}",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": "{paragraphSpacing.0}",
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "{textCase.none}",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "{textDecoration.none}",
+        "type": "textDecoration"
+      }
+    },
+    "body-semibold-underline": {
+      "fontFamily": {
+        "value": "{fontFamilies.open-sans}",
+        "type": "fontFamilies"
+      },
+      "fontWeight": {
+        "value": "{fontWeights.open-sans-1}",
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "{lineHeights.3}",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": "{fontSize.1}",
+        "type": "fontSizes"
+      },
+      "letterSpacing": {
+        "value": "{letterSpacing.0}",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": "{paragraphSpacing.0}",
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "{textCase.none}",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "{textDecoration.underline}",
+        "type": "textDecoration"
+      }
+    },
+    "body-semibold-tag": {
+      "fontFamily": {
+        "value": "{fontFamilies.open-sans}",
+        "type": "fontFamilies"
+      },
+      "fontWeight": {
+        "value": "{fontWeights.open-sans-1}",
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "{lineHeights.5}",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": "{fontSize.1}",
+        "type": "fontSizes"
+      },
+      "letterSpacing": {
+        "value": "{letterSpacing.0}",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": "{paragraphSpacing.0}",
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "{textCase.none}",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "{textDecoration.none}",
+        "type": "textDecoration"
+      }
+    },
+    "body": {
+      "fontFamily": {
+        "value": "{fontFamilies.open-sans}",
+        "type": "fontFamilies"
+      },
+      "fontWeight": {
+        "value": "{fontWeights.open-sans-0}",
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "{lineHeights.3}",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": "{fontSize.1}",
+        "type": "fontSizes"
+      },
+      "letterSpacing": {
+        "value": "{letterSpacing.0}",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": "{paragraphSpacing.0}",
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "{textCase.none}",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "{textDecoration.none}",
+        "type": "textDecoration"
+      }
+    },
+    "caption-bold": {
+      "fontFamily": {
+        "value": "{fontFamilies.open-sans}",
+        "type": "fontFamilies"
+      },
+      "fontWeight": {
+        "value": "{fontWeights.open-sans-2}",
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "{lineHeights.4}",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": "{fontSize.0}",
+        "type": "fontSizes"
+      },
+      "letterSpacing": {
+        "value": "{letterSpacing.0}",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": "{paragraphSpacing.0}",
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "{textCase.none}",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "{textDecoration.none}",
+        "type": "textDecoration"
+      }
+    },
+    "caption": {
+      "fontFamily": {
+        "value": "{fontFamilies.open-sans}",
+        "type": "fontFamilies"
+      },
+      "fontWeight": {
+        "value": "{fontWeights.open-sans-0}",
+        "type": "fontWeights"
+      },
+      "lineHeight": {
+        "value": "{lineHeights.4}",
+        "type": "lineHeight"
+      },
+      "fontSize": {
+        "value": "{fontSize.0}",
+        "type": "fontSizes"
+      },
+      "letterSpacing": {
+        "value": "{letterSpacing.0}",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing": {
+        "value": "{paragraphSpacing.0}",
+        "type": "paragraphSpacing"
+      },
+      "textCase": {
+        "value": "{textCase.none}",
+        "type": "textCase"
+      },
+      "textDecoration": {
+        "value": "{textDecoration.none}",
+        "type": "textDecoration"
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      }
+    },
+    "uppercase": {
+      "value": "uppercase",
+      "type": "textCase",
+      "description": "uppercase-transformation"
+    },
+    "border-radius": {
+      "4": {
+        "value": "4",
+        "type": "borderRadius",
+        "description": "Border radius base value of 4"
+      },
+      "8": {
+        "value": "{border-radius.4}*2",
+        "type": "borderRadius",
+        "description": "Border radius base value of 8"
+      },
+      "12": {
+        "value": "{border-radius.4}*3",
+        "type": "borderRadius",
+        "description": "Border radius base value of 12"
+      },
+      "20": {
+        "value": "{border-radius.4}*5",
+        "type": "borderRadius",
+        "description": "Border radius base value of 20"
+      },
+      "100": {
+        "value": "{border-radius.4}*25",
+        "type": "borderRadius",
+        "description": "Border radius base value of 100 for circle"
+      }
+    },
+    "border-width": {
+      "1": {
+        "value": "1",
+        "type": "borderWidth",
+        "description": "Border width value of 1px Used in form fields, card, stroked button, visual input"
+      },
+      "2": {
+        "value": "2",
+        "type": "borderWidth",
+        "description": "Border width value of 2px Used in form fields, card, stroked button, visual input"
+      },
+      "half": {
+        "value": ".5",
+        "type": "borderWidth",
+        "description": "Border width value of .5px Used in form fields, card, stroked button, visual input"
+      }
+    },
+    "icon": {
+      "12": {
+        "value": "12px",
+        "type": "dimension",
+        "description": "Used for 12px icon sizes"
+      },
+      "16": {
+        "value": "16px",
+        "type": "dimension",
+        "description": "Used for 16px icon sizes"
+      },
+      "24": {
+        "value": "24px",
+        "type": "dimension",
+        "description": "Used for 24px icon sizes"
+      }
+    },
+    "spacing": {
+      "0": {
+        "value": "0px",
+        "type": "dimension",
+        "description": "Spacing value of 0px"
+      },
+      "2": {
+        "value": "2px",
+        "type": "dimension",
+        "description": "spacing value of 2px"
+      },
+      "4": {
+        "value": "4px",
+        "type": "dimension",
+        "description": "spacing value of 4px"
+      },
+      "8": {
+        "value": "8px",
+        "type": "dimension",
+        "description": "spacing value of 8px"
+      },
+      "12": {
+        "value": "12px",
+        "type": "dimension",
+        "description": "spacing value of 12px"
+      },
+      "16": {
+        "value": "16px",
+        "type": "dimension",
+        "description": "spacing value of 16px"
+      },
+      "24": {
+        "value": "24px",
+        "type": "dimension",
+        "description": "spacing value of 24px"
+      },
+      "32": {
+        "value": "32px",
+        "type": "dimension",
+        "description": "spacing value of 32px"
+      },
+      "48": {
+        "value": "48px",
+        "type": "dimension",
+        "description": "spacing value of 48px"
+      }
+    },
+    "elevation": {
+      "999": {
+        "value": "999",
+        "type": "other",
+        "description": "Z-index value of 999 used for overlay"
+      },
+      "9999": {
+        "value": "9999",
+        "type": "other",
+        "description": "Z-index value of 9999. Used for dialogs"
+      },
+      "base": {
+        "value": "10",
+        "type": "other",
+        "description": "Base elevation value of 10"
+      }
+    }
+  },
+  "light_mode": {
+    "colors": {
+      "text": {
+        "default": {
+          "value": "{colors.cool-gray.900}",
+          "type": "color",
+          "description": "Used for normal text in light mode. Built using colors.cool-gray.900"
+        },
+        "default-inverse": {
+          "value": "{colors.origin.white}",
+          "type": "color",
+          "description": "Used for inverse text in light mode. Built using colors.origin.white"
+        },
+        "secondary": {
+          "value": "{colors.cool-gray.600}",
+          "type": "color",
+          "description": "Used for secondary text in light mode"
+        },
+        "disabled": {
+          "value": "{colors.cool-gray.500}*{opacity.dark-disabled-text}",
+          "type": "color",
+          "description": "Used for disabled text in light mode"
+        },
+        "primary": {
+          "value": "{colors.primary.700}",
+          "type": "color",
+          "description": "Used as primary text color in light mode. Built using primary-700"
+        },
+        "error": {
+          "value": "{colors.red.600}",
+          "type": "color",
+          "description": "Use for warn text. Built using red-600"
+        }
+      },
+      "primary": {
+        "50": {
+          "value": "{colors.blue.50}",
+          "type": "color",
+          "description": "Build using colors.blue.50"
+        },
+        "100": {
+          "value": "{colors.blue.100}",
+          "type": "color",
+          "description": "Built using colors.blue.100"
+        },
+        "200": {
+          "value": "{colors.blue.200}",
+          "type": "color",
+          "description": "Built using colors.blue.200"
+        },
+        "300": {
+          "value": "{colors.blue.300}",
+          "type": "color",
+          "description": "Built using colors.blue.300"
+        },
+        "400": {
+          "value": "{colors.blue.400}",
+          "type": "color",
+          "description": "Built using colors.blue.400"
+        },
+        "500": {
+          "value": "{colors.blue.500}",
+          "type": "color",
+          "description": "Built using colors.blue.500"
+        },
+        "600": {
+          "value": "{colors.blue.600}",
+          "type": "color",
+          "description": "Built using colors.blue.600"
+        },
+        "700": {
+          "value": "{colors.blue.700}",
+          "type": "color",
+          "description": "Built using colors.blue.700"
+        },
+        "800": {
+          "value": "{colors.blue.800}",
+          "type": "color",
+          "description": "Built using colors.blue.800"
+        },
+        "900": {
+          "value": "{colors.blue.900}",
+          "type": "color",
+          "description": "Built using colors.blue.900"
+        }
+      },
+      "neutral": {
+        "50": {
+          "value": "{colors.cool-gray.50}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.50"
+        },
+        "100": {
+          "value": "{colors.cool-gray.100}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.100"
+        },
+        "200": {
+          "value": "{colors.cool-gray.200}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.200"
+        },
+        "300": {
+          "value": "{colors.cool-gray.300}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.300"
+        },
+        "400": {
+          "value": "{colors.cool-gray.400}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.400"
+        },
+        "500": {
+          "value": "{colors.cool-gray.500}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.500"
+        },
+        "600": {
+          "value": "{colors.cool-gray.600}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.600"
+        },
+        "700": {
+          "value": "{colors.cool-gray.700}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.700"
+        },
+        "800": {
+          "value": "{colors.cool-gray.800}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.800"
+        },
+        "900": {
+          "value": "{colors.cool-gray.900}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.900"
+        }
+      },
+      "icon": {
+        "default": {
+          "value": "{colors.primary.700}",
+          "type": "color",
+          "description": "Default color for icons in light mode. Built using colors.blue.700"
+        },
+        "error": {
+          "value": "{colors.red.600}",
+          "type": "color",
+          "description": "Built using colors.red.600"
+        },
+        "success": {
+          "value": "{colors.green.600}",
+          "type": "color",
+          "description": "Built using colors.green.600"
+        },
+        "warning": {
+          "value": "{colors.yellow.400}",
+          "type": "color",
+          "description": "Built using colors.yellow.400"
+        }
+      },
+      "state": {
+        "active-focused": {
+          "value": "{colors.primary.100}",
+          "type": "color",
+          "description": "Built using colors.primary.100"
+        },
+        "inactive-focused": {
+          "value": "{colors.primary.100}",
+          "type": "color",
+          "description": "built using colors.primary.100"
+        },
+        "active-unfocused": {
+          "value": "{colors.neutral.100}",
+          "type": "color",
+          "description": "Built using colors.neutral.100"
+        },
+        "inactive-hover": {
+          "value": "{colors.neutral.100}",
+          "type": "color",
+          "description": "Built using colors.neutral.100"
+        },
+        "keyboard-focus": {
+          "value": "{colors.origin.black}",
+          "type": "color",
+          "description": "Built using colors.origin.black"
+        },
+        "active-hover": {
+          "value": "{colors.primary.100}",
+          "type": "color",
+          "description": "Built using colors.primary.100"
+        },
+        "active-pressed": {
+          "value": "{colors.primary.200}",
+          "type": "color",
+          "description": "Built using colors.primary.200"
+        },
+        "inactive-pressed": {
+          "value": "{colors.cool-gray.300}",
+          "type": "color",
+          "description": "Built using colors.cool-grey.300"
+        }
+      },
+      "functional-bg": {
+        "purple": {
+          "value": "{colors.purple.700}",
+          "type": "color",
+          "description": "Built using colors.purple.700"
+        },
+        "blue": {
+          "value": "{colors.blue.700}",
+          "type": "color",
+          "description": "Built using colors.blue.700"
+        },
+        "teal": {
+          "value": "{colors.teal.600}",
+          "type": "color",
+          "description": "Built using colors.teal.600"
+        },
+        "green": {
+          "value": "{colors.green.600}",
+          "type": "color",
+          "description": "Built using colors.green.600"
+        },
+        "yellow": {
+          "value": "{colors.yellow.600}",
+          "type": "color",
+          "description": "Built using colors.yellow.600"
+        },
+        "orange": {
+          "value": "{colors.orange.600}",
+          "type": "color",
+          "description": "Built using colors.orange.600"
+        },
+        "red": {
+          "value": "{colors.red.500}",
+          "type": "color",
+          "description": "Built using colors.red.500"
+        },
+        "pink": {
+          "value": "{colors.pink.600}",
+          "type": "color",
+          "description": "Built using colors.pink.600"
+        }
+      },
+      "functional-text": {
+        "purple": {
+          "value": "{colors.purple.300}",
+          "type": "color",
+          "description": "Built using colors.purple.300"
+        },
+        "blue": {
+          "value": "{colors.blue.300}",
+          "type": "color",
+          "description": "Built using colors.blue.300"
+        },
+        "teal": {
+          "value": "{colors.teal.300}",
+          "type": "color",
+          "description": "Built using colors.teal.300"
+        },
+        "green": {
+          "value": "{colors.lime.400}",
+          "type": "color",
+          "description": "Built using colors.lime.400"
+        },
+        "yellow": {
+          "value": "{colors.yellow.300}",
+          "type": "color",
+          "description": "Built using colors.yellow.300"
+        },
+        "orange": {
+          "value": "{colors.orange.400}",
+          "type": "color",
+          "description": "Built using colors.orange.400"
+        },
+        "red": {
+          "value": "{colors.red.400}",
+          "type": "color",
+          "description": "Built using colors.red.400"
+        },
+        "pink": {
+          "value": "{colors.pink.300}",
+          "type": "color",
+          "description": "Built using colors.pink.300"
+        }
+      },
+      "button-state": {
+        "basic-hover": {
+          "value": "rgba({colors.origin.black}, {opacity.opacity-4})",
+          "type": "color",
+          "description": "built with origin black @ 4%"
+        },
+        "basic-pressed": {
+          "value": "rgba({colors.origin.black}, {opacity.opacity-8})",
+          "type": "color",
+          "description": "built with origin black @ 8%"
+        },
+        "primary-hover": {
+          "value": "rgba({colors.primary.600}, {opacity.opacity-4})",
+          "type": "color",
+          "description": "built with colors.primary.600 @ 4%"
+        },
+        "primary-pressed": {
+          "value": "rgba({colors.primary.600},{opacity.opacity-10})",
+          "type": "color",
+          "description": "built with colors.primary.600 @ 10%"
+        },
+        "warn-hover": {
+          "value": "rgba({colors.red.600},{opacity.opacity-4})",
+          "type": "color",
+          "description": "built with colors.red.600 @ 4%"
+        },
+        "warn-pressed": {
+          "value": "rgba({colors.red.600},{opacity.opacity-10})",
+          "type": "color",
+          "description": "built with colors.red.600 @ 10%"
+        },
+        "flat-hover": {
+          "value": "rgba({colors.origin.white}, {opacity.opacity-8})",
+          "type": "color",
+          "description": "built with colors.origin.white @ 8%"
+        },
+        "flat-pressed": {
+          "value": "rgba({colors.origin.white},{opacity.opacity-10})",
+          "type": "color",
+          "description": "built with colors.origin.white @ 10%"
+        }
+      },
+      "background": {
+        "nav": {
+          "value": "{colors.cool-gray.100}",
+          "type": "color",
+          "description": "built with colors.cool-gray.100"
+        },
+        "page": {
+          "value": "{colors.origin.white}",
+          "type": "color"
+        },
+        "primary": {
+          "value": "{colors.primary.700}",
+          "type": "color",
+          "description": "built using colors.primary.700"
+        },
+        "error": {
+          "value": "{colors.red.600}",
+          "type": "color",
+          "description": "built using colors.red.600"
+        },
+        "disabled": {
+          "value": "{colors.cool-gray.200}",
+          "type": "color",
+          "description": "built using colors.cool-gray.200"
+        },
+        "default": {
+          "value": "{colors.cool-gray.200}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.200"
+        }
+      },
+      "border": {
+        "active": {
+          "value": "{colors.primary.700}",
+          "type": "color",
+          "description": "built using colors.primary.700"
+        },
+        "default": {
+          "value": "{colors.cool-gray.500}",
+          "type": "color",
+          "description": "built using colors.cool-gray.500"
+        },
+        "error": {
+          "value": "{colors.red.600}",
+          "type": "color",
+          "description": "built using colors.red.600"
+        },
+        "disabled": {
+          "value": "{colors.cool-gray.300}",
+          "type": "color",
+          "description": "built using colors.cool-gray.300"
+        },
+        "warning": {
+          "value": "{colors.yellow.400}",
+          "type": "color",
+          "description": "built using colors.yellow.400"
+        },
+        "white": {
+          "value": "{colors.origin.white}",
+          "type": "color",
+          "description": "built using colors.origin.white"
+        }
+      }
+    },
+    "border": {
+      "default": {
+        "color": {
+          "value": "{colors.border.default}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.1}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "solid",
+          "type": "strokeStyle"
+        }
+      },
+      "active": {
+        "color": {
+          "value": "{colors.border.active}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.1}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "solid",
+          "type": "strokeStyle"
+        }
+      },
+      "error": {
+        "color": {
+          "value": "{colors.border.error}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.1}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "solid",
+          "type": "strokeStyle"
+        }
+      },
+      "disabled": {
+        "color": {
+          "value": "{colors.border.disabled}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.1}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "solid",
+          "type": "strokeStyle"
+        }
+      },
+      "warning": {
+        "color": {
+          "value": "{colors.border.warning}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.1}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "solid",
+          "type": "strokeStyle"
+        }
+      },
+      "white": {
+        "color": {
+          "value": "{colors.border.white}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.1}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "solid",
+          "type": "strokeStyle"
+        }
+      },
+      "calendar": {
+        "color": {
+          "value": "{colors.cool-gray.400}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.half}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "dashed",
+          "type": "strokeStyle"
+        }
+      },
+      "file-upload": {
+        "color": {
+          "value": "{colors.cool-gray.500}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.1}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "dashed",
+          "type": "strokeStyle"
+        }
+      },
+      "drag": {
+        "color": {
+          "value": "{colors.blue.700}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.2}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "dashed",
+          "type": "strokeStyle"
+        }
+      }
+    },
+    "shadow-base": {
+      "0": {
+        "x": {
+          "value": "0",
+          "type": "x"
+        },
+        "y": {
+          "value": "1",
+          "type": "y"
+        },
+        "blur": {
+          "value": "10",
+          "type": "blur"
+        },
+        "spread": {
+          "value": "0",
+          "type": "spread"
+        },
+        "color": {
+          "value": "#00000033",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      },
+      "1": {
+        "x": {
+          "value": "0",
+          "type": "x"
+        },
+        "y": {
+          "value": "4",
+          "type": "y"
+        },
+        "blur": {
+          "value": "5",
+          "type": "blur"
+        },
+        "spread": {
+          "value": "0",
+          "type": "spread"
+        },
+        "color": {
+          "value": "#0000001f",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      },
+      "2": {
+        "x": {
+          "value": "0",
+          "type": "x"
+        },
+        "y": {
+          "value": "2",
+          "type": "y"
+        },
+        "blur": {
+          "value": "4",
+          "type": "blur"
+        },
+        "spread": {
+          "value": "0",
+          "type": "spread"
+        },
+        "color": {
+          "value": "#00000024",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      }
+    },
+    "shadow-6": {
+      "0": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 1,
+          "type": "y"
+        },
+        "blur": {
+          "value": 10,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#00000033",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      },
+      "1": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 4,
+          "type": "y"
+        },
+        "blur": {
+          "value": 5,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#000000ff",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      },
+      "2": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 2,
+          "type": "y"
+        },
+        "blur": {
+          "value": 4,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#00000024",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      }
+    }
+  },
+  "dark_mode": {
+    "colors": {
+      "text": {
+        "default": {
+          "value": "{colors.origin.white}",
+          "type": "color",
+          "description": "Used for normal text in dark mode. Built using colors.origin.black"
+        },
+        "secondary": {
+          "value": "{colors.origin.white}*{opacity.dark-secondary-text}",
+          "type": "color",
+          "description": "Used for secondary text in dark mode - colors.origin.white @ 70%"
+        },
+        "default-inverse": {
+          "value": "{colors.cool-gray.900}",
+          "type": "color",
+          "description": "Used for inverse text in dark mode. Built using colors.cool-gray.900"
+        },
+        "disabled": {
+          "value": "{colors.origin.white}*{opacity.dark-disabled-text}",
+          "type": "color",
+          "description": "Used for disabled text in dark mode colors.origin.white @ 60%"
+        },
+        "primary": {
+          "value": "{colors.primary.400}",
+          "type": "color",
+          "description": "Used as primary text color in dark mode. Built using primary-400"
+        },
+        "error": {
+          "value": "{colors.red.400}",
+          "type": "color",
+          "description": "Use for warn text. Built using red-400"
+        }
+      },
+      "primary": {
+        "50": {
+          "value": "{colors.blue.50}",
+          "type": "color",
+          "description": "Build using colors.blue.50"
+        },
+        "100": {
+          "value": "{colors.blue.100}",
+          "type": "color",
+          "description": "Built using colors.blue.100"
+        },
+        "200": {
+          "value": "{colors.blue.200}",
+          "type": "color",
+          "description": "Built using colors.blue.200"
+        },
+        "300": {
+          "value": "{colors.blue.300}",
+          "type": "color",
+          "description": "Built using colors.blue.300"
+        },
+        "400": {
+          "value": "{colors.blue.400}",
+          "type": "color",
+          "description": "Built using colors.blue.400"
+        },
+        "500": {
+          "value": "{colors.blue.500}",
+          "type": "color",
+          "description": "Built using colors.blue.500"
+        },
+        "600": {
+          "value": "{colors.blue.600}",
+          "type": "color",
+          "description": "Built using colors.blue.600"
+        },
+        "700": {
+          "value": "{colors.blue.700}",
+          "type": "color",
+          "description": "Built using colors.blue.700"
+        },
+        "800": {
+          "value": "{colors.blue.800}",
+          "type": "color",
+          "description": "Built using colors.blue.800"
+        },
+        "900": {
+          "value": "{colors.blue.900}",
+          "type": "color",
+          "description": "Built using colors.blue.900"
+        }
+      },
+      "neutral": {
+        "50": {
+          "value": "{colors.cool-gray.50}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.50"
+        },
+        "100": {
+          "value": "{colors.cool-gray.100}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.100"
+        },
+        "200": {
+          "value": "{colors.cool-gray.200}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.200"
+        },
+        "300": {
+          "value": "{colors.cool-gray.300}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.300"
+        },
+        "400": {
+          "value": "{colors.cool-gray.400}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.400"
+        },
+        "500": {
+          "value": "{colors.cool-gray.500}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.500"
+        },
+        "600": {
+          "value": "{colors.cool-gray.600}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.600"
+        },
+        "700": {
+          "value": "{colors.cool-gray.700}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.700"
+        },
+        "800": {
+          "value": "{colors.cool-gray.800}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.800"
+        },
+        "900": {
+          "value": "{colors.cool-gray.900}",
+          "type": "color",
+          "description": "Built using colors.cool-gray.900"
+        }
+      },
+      "icon": {
+        "default": {
+          "value": "{colors.primary.400}",
+          "type": "color",
+          "description": "Default color for icons in dark mode. Built using colors.primary.400"
+        },
+        "error": {
+          "value": "{colors.red.400}",
+          "type": "color",
+          "description": "Built using colors.red.400"
+        },
+        "success": {
+          "value": "{colors.green.400}",
+          "type": "color",
+          "description": "Built using colors.green.400"
+        },
+        "warning": {
+          "value": "{colors.yellow.300}",
+          "type": "color",
+          "description": "Built using colors.yellow.300"
+        },
+        "disabled": {
+          "value": "{colors.origin.white}*{opacity.dark-disabled-text}",
+          "type": "color",
+          "description": "built with colors.origin.white @ 60%"
+        }
+      },
+      "state": {
+        "active-focused": {
+          "value": "rgba({colors.primary.100},{opacity.opacity-32})",
+          "type": "color",
+          "description": "Built using colors.primary.100"
+        },
+        "inactive-focused": {
+          "value": "rgba({colors.primary.100}, opacity.opacity-32)",
+          "type": "color",
+          "description": "built using colors.primary.100 @ 32%"
+        },
+        "active-unfocused": {
+          "value": "{colors.neutral.100}",
+          "type": "color",
+          "description": "Built using colors.neutral.100"
+        },
+        "inactive-hover": {
+          "value": "{colors.neutral.100}",
+          "type": "color",
+          "description": "Built using colors.neutral.100"
+        },
+        "keyboard-focus": {
+          "value": "{colors.origin.black}",
+          "type": "color",
+          "description": "Built using colors.origin.black"
+        },
+        "active-hover": {
+          "value": "{colors.primary.100}",
+          "type": "color",
+          "description": "Built using colors.primary.100"
+        },
+        "active-pressed": {
+          "value": "{colors.primary.200}",
+          "type": "color",
+          "description": "Built using colors.primary.200"
+        },
+        "inactive-pressed": {
+          "value": "{colors.cool-gray.300}",
+          "type": "color",
+          "description": "Built using colors.cool-grey.300"
+        }
+      },
+      "functional-bg": {
+        "purple": {
+          "value": "{colors.purple.400}",
+          "type": "color",
+          "description": "Built using colors.purple.400"
+        },
+        "blue": {
+          "value": "{colors.blue.400}",
+          "type": "color",
+          "description": "Built using colors.blue.400"
+        },
+        "teal": {
+          "value": "{colors.teal.400}",
+          "type": "color",
+          "description": "Built using colors.teal.400"
+        },
+        "green": {
+          "value": "{colors.green.400}",
+          "type": "color",
+          "description": "Built using colors.green.400"
+        },
+        "yellow": {
+          "value": "{colors.yellow.400}",
+          "type": "color",
+          "description": "Built using colors.yellow.400"
+        },
+        "orange": {
+          "value": "{colors.orange.400}",
+          "type": "color",
+          "description": "Built using colors.orange.400"
+        },
+        "red": {
+          "value": "{colors.red.300}",
+          "type": "color",
+          "description": "Built using colors.red.300"
+        },
+        "pink": {
+          "value": "{colors.pink.400}",
+          "type": "color",
+          "description": "Built using colors.pink.400"
+        }
+      },
+      "functional-text": {
+        "purple": {
+          "value": "{colors.purple.300}",
+          "type": "color",
+          "description": "Built using colors.purple.300"
+        },
+        "blue": {
+          "value": "{colors.light-blue.300}",
+          "type": "color",
+          "description": "Built using colors.light-blue.300"
+        },
+        "teal": {
+          "value": "{colors.teal.300}",
+          "type": "color",
+          "description": "Built using colors.teal.300"
+        },
+        "green": {
+          "value": "{colors.green.300}",
+          "type": "color",
+          "description": "Built using colors.green.300"
+        },
+        "yellow": {
+          "value": "{colors.yellow.300}",
+          "type": "color",
+          "description": "Built using colors.yellow.300"
+        },
+        "orange": {
+          "value": "{colors.orange.300}",
+          "type": "color",
+          "description": "Built using colors.orange.300"
+        },
+        "red": {
+          "value": "{colors.red.300}",
+          "type": "color",
+          "description": "Built using colors.red.300"
+        },
+        "pink": {
+          "value": "{colors.pink.300}",
+          "type": "color",
+          "description": "Built using colors.pink.300"
+        }
+      },
+      "button-state": {
+        "basic-hover": {
+          "value": "rgba({colors.origin.black},{opacity.opacity-4})",
+          "type": "color",
+          "description": "built with origin black @ 4%"
+        },
+        "basic-pressed": {
+          "value": "rgba({colors.origin.black},{opacity.opacity-8})",
+          "type": "color",
+          "description": "built with origin black @ 8%"
+        },
+        "primary-hover": {
+          "value": "rgba({colors.primary.600},{opacity.opacity-4})",
+          "type": "color",
+          "description": "built with colors.primary.600 @ 4%"
+        },
+        "primary-pressed": {
+          "value": "rgba({colors.primary.600},{opacity.opacity-10})",
+          "type": "color",
+          "description": "built with colors.primary.600 @ 10%"
+        },
+        "warn-hover": {
+          "value": "rgba({colors.red.600},{opacity.opacity-4})",
+          "type": "color",
+          "description": "built with colors.red.600 @ 4%"
+        },
+        "warn-pressed": {
+          "value": "{colors.red.600}*opacity.opacity-10",
+          "type": "color",
+          "description": "built with colors.red.600 @ 10%"
+        },
+        "flat-hover": {
+          "value": "rgba({colors.origin.white},{opacity.opacity-8})",
+          "type": "color",
+          "description": "built with colors.origin.white @ 8%"
+        },
+        "flat-pressed": {
+          "value": "rgba({colors.origin.white}*{opacity.opacity-10})",
+          "type": "color",
+          "description": "built with colors.origin.white @ 10%"
+        }
+      },
+      "background": {
+        "nav": {
+          "value": "{colors.cool-gray.800}",
+          "type": "color",
+          "description": "built with colors.cool-gray.800"
+        },
+        "page": {
+          "value": "{colors.gray.800}",
+          "type": "color",
+          "description": "built using colors.gray.800"
+        },
+        "primary": {
+          "value": "{colors.primary.400}",
+          "type": "color",
+          "description": "built using colors.primary.400"
+        },
+        "error": {
+          "value": "{colors.red.400}",
+          "type": "color",
+          "description": "built using colors.red.400"
+        },
+        "disabled": {
+          "value": "{colors.origin.black}",
+          "type": "color",
+          "description": "built using colors.origin.black"
+        },
+        "default": {
+          "value": "{colors.origin.black}",
+          "type": "color",
+          "description": "built using colors.origin.black"
+        }
+      },
+      "border": {
+        "active": {
+          "value": "{colors.primary.400}",
+          "type": "color",
+          "description": "built using colors.primary.400"
+        },
+        "default": {
+          "value": "{colors.cool-gray.400}",
+          "type": "color",
+          "description": "built using colors.cool-gray.400"
+        },
+        "error": {
+          "value": "{colors.red.400}",
+          "type": "color",
+          "description": "built using colors.red.400"
+        },
+        "disabled": {
+          "value": "{colors.neutral.400}",
+          "type": "color",
+          "description": "built using colors.neutral.400"
+        },
+        "warning": {
+          "value": "{colors.yellow.300}",
+          "type": "color",
+          "description": "built using colors.yellow.300"
+        },
+        "white": {
+          "value": "{colors.origin.white}",
+          "type": "color",
+          "description": "built using colors.origin.white"
+        }
+      }
+    },
+    "border": {
+      "default": {
+        "color": {
+          "value": "{colors.border.default}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.1}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "solid",
+          "type": "strokeStyle"
+        }
+      },
+      "active": {
+        "color": {
+          "value": "{colors.border.active}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.1}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "solid",
+          "type": "strokeStyle"
+        }
+      },
+      "error": {
+        "color": {
+          "value": "{colors.border.error}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.1}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "solid",
+          "type": "strokeStyle"
+        }
+      },
+      "disabled": {
+        "color": {
+          "value": "{colors.border.disabled}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.1}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "solid",
+          "type": "strokeStyle"
+        }
+      },
+      "warning": {
+        "color": {
+          "value": "{colors.border.warning}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.1}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "solid",
+          "type": "strokeStyle"
+        }
+      },
+      "white": {
+        "color": {
+          "value": "{colors.border.white}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.1}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "solid",
+          "type": "strokeStyle"
+        }
+      },
+      "calendar": {
+        "color": {
+          "value": "{colors.cool-gray.400}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.half}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "dashed",
+          "type": "strokeStyle"
+        }
+      },
+      "file-upload": {
+        "color": {
+          "value": "{colors.cool-gray.400}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.1}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "dashed",
+          "type": "strokeStyle"
+        }
+      },
+      "drag": {
+        "color": {
+          "value": "{colors.blue.400}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.2}",
+          "type": "dimension"
+        },
+        "style": {
+          "value": "dashed",
+          "type": "strokeStyle"
+        }
+      }
+    },
+    "shadow-base": {
+      "0": {
+        "x": {
+          "value": "0",
+          "type": "x"
+        },
+        "y": {
+          "value": "1",
+          "type": "y"
+        },
+        "blur": {
+          "value": "10",
+          "type": "blur"
+        },
+        "spread": {
+          "value": "0",
+          "type": "spread"
+        },
+        "color": {
+          "value": "#00000033",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      },
+      "1": {
+        "x": {
+          "value": "0",
+          "type": "x"
+        },
+        "y": {
+          "value": "4",
+          "type": "y"
+        },
+        "blur": {
+          "value": "5",
+          "type": "blur"
+        },
+        "spread": {
+          "value": "0",
+          "type": "spread"
+        },
+        "color": {
+          "value": "#000000ff",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      },
+      "2": {
+        "x": {
+          "value": "0",
+          "type": "x"
+        },
+        "y": {
+          "value": "2",
+          "type": "y"
+        },
+        "blur": {
+          "value": "4",
+          "type": "blur"
+        },
+        "spread": {
+          "value": "0",
+          "type": "spread"
+        },
+        "color": {
+          "value": "#00000024",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      }
+    },
+    "shadow-6": {
+      "0": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 1,
+          "type": "y"
+        },
+        "blur": {
+          "value": 10,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#00000033",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      },
+      "1": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 4,
+          "type": "y"
+        },
+        "blur": {
+          "value": 5,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#000000ff",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      },
+      "2": {
+        "x": {
+          "value": 0,
+          "type": "x"
+        },
+        "y": {
+          "value": 2,
+          "type": "y"
+        },
+        "blur": {
+          "value": 4,
+          "type": "blur"
+        },
+        "spread": {
+          "value": 0,
+          "type": "spread"
+        },
+        "color": {
+          "value": "#00000024",
+          "type": "color"
+        },
+        "type": {
+          "value": "dropShadow",
+          "type": "type"
+        }
+      }
+    }
+  },
+  "metadata": {
+    "tokenSetOrder": [
+      "core",
+      "global",
+      "light_mode",
+      "dark_mode"
+    ]
+  }
+}
